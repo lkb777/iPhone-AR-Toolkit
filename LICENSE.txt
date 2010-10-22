@@ -1,3 +1,11 @@
+
+Copyright (c) 2010, Contributing Developers (Charles Dasher)
+
+
+
+Based on existing work by Mike Tigas
+
+
 Copyright (c) 2010, Mike Tigas
 All rights reserved.
 
