@@ -44,19 +44,12 @@
 	ARGeoCoordinate *tempCoordinate;
 	CLLocation		*tempLocation;
 	
-	
-		
-	
-	tempLocation = [[CLLocation alloc] initWithLatitude:51.507937 longitude:-0.076188];
+	tempLocation = [[CLLocation alloc] initWithLatitude:100.507937 longitude:-0.76188];
 	tempCoordinate = [ARGeoCoordinate coordinateWithLocation:tempLocation locationTitle:@"Tower of London"];
 	[locationArray addObject:tempCoordinate];
 	[tempLocation release];
 	
-	
-	
-	
-	
-	return locationArray;
+	return [locationArray autorelease];
 }
 
 
